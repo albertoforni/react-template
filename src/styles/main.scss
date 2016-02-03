@@ -1,0 +1,54 @@
+// Import libraries
+@import "modules/normalize";
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+@import "./vars";
+
+// text
+$text-main-color: $color-3;
+
+// background
+$bg-main-color: $color-5;
+
+// General Style
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $font-family-0;
+  font-weight: $font-weight-0;
+  font-size: $font-size-0;
+  color: $text-main-color;
+  background-color: $bg-main-color;
+}
+
+*,
+hr {
+  box-sizing: border-box;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+button {
+  border-radius: 3px;
+  border: 0;
+  padding: 1rem;
+  outline: none;
+}
+
+input,
+select {
+  outline: none;
+  border-radius: 0;
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}

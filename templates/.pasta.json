@@ -1,0 +1,12 @@
+{
+  "create": {
+    "component": {
+      "from": "./templates/create/component",
+      "to": "./src/components/{componentName}"
+    },
+    "component": {
+      "from": "./templates/create/component",
+      "to": "./src/containers/{componentName}"
+    }
+  }
+}
