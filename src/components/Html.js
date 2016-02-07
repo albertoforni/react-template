@@ -19,7 +19,7 @@ export default class HTML extends Component {
       <html lang="en-us">
         <head>
           <meta charSet="utf-8" />
-          <title>Staffing UI</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="shortcut icon" href="/favicon.ico" />
           {cssHtml}
         </head>

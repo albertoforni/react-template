@@ -4,7 +4,7 @@
       "from": "./templates/create/component",
       "to": "./src/components/{componentName}"
     },
-    "component": {
+    "container": {
       "from": "./templates/create/component",
       "to": "./src/containers/{componentName}"
     }
