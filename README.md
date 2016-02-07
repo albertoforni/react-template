@@ -1,5 +1,5 @@
-# Staffing Frontend
-React and Redux project
+# React Template
+React starte kit with, Redux, ES7, CSS Modules.
 
 ## Get up and running
 With `node` installed run
