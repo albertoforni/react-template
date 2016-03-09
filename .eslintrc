@@ -19,10 +19,6 @@
     "quotes": [1, "single"],
     "no-unused-vars": [2, {"vars": "all", "args": "after-used"}],
     "indent": [2, 2],
-    "quotes": [
-      1,
-      "single"
-    ],
     "linebreak-style": [
       2,
       "unix"
