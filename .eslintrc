@@ -5,7 +5,8 @@
   },
   "extends": "./node_modules/node-style-guide/.eslintrc",
   "plugins": [
-    "react"
+    "react",
+    "babel-eslint"
   ],
   "ecmaFeatures": {
     "jsx": true
