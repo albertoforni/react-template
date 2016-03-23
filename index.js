@@ -1,5 +1,5 @@
 require('babel-polyfill');
-require('babel-core/register');
+require('babel-register');
 
 var CONFIG = require('./config');
 console.log(`==> 💁  Environment is: "${CONFIG.ENV}"`);
