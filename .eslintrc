@@ -2,14 +2,14 @@
   "parser": "babel-eslint",
   "env": {
     "browser": true,
+    "node": true
   },
-  "extends": "./node_modules/node-style-guide/.eslintrc",
   "plugins": [
-    "react",
-    "babel-eslint"
+    "react"
   ],
   "ecmaFeatures": {
-    "jsx": true
+    "jsx": true,
+    "modules": true
   },
   "rules": {
     "new-cap": 0,

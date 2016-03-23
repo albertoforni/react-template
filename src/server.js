@@ -53,7 +53,7 @@ module.exports = (callback) => {
 
   // Finally, start the express app
   return app.listen(CONFIG.PORT, () => {
-    console.info(`==> ✅  Server is listening`);
+    console.info('==> ✅  Server is listening');
     console.info(`==> 🌎  Go to http://${CONFIG.HOSTNAME}:${CONFIG.PORT}`);
 
     callback(app);
