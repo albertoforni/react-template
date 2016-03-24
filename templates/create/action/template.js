@@ -1,5 +1,5 @@
 // ||| MyComponent -> componentName
-import * as API from '../api/MyComponent';
+import * as API from '../apis/MyComponent';
 // ||| MyComponent -> componentName
 import MyComponentConstants from '../constants/MyComponent';
 
